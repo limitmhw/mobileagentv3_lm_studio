@@ -306,7 +306,7 @@ if __name__ == '__main__':
     parser.add_argument("--adb_path", type=str, default="adb")
     parser.add_argument("--hdc_path", type=str)   
     parser.add_argument("--api_key", type=str, default="")
-    parser.add_argument("--base_url", type=str, default="http://192.168.2.114:1234")
+    parser.add_argument("--base_url", type=str, default="http://127.0.0.1:1234")
     parser.add_argument("--model", type=str, default="gui-owl-7b")
     parser.add_argument("--instruction", type=str , default="MyTest" )
     parser.add_argument("--add_info", type=str, default="")
